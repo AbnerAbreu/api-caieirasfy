@@ -20,6 +20,7 @@ from rest_framework import routers
 from rest_framework.authtoken.views import obtain_auth_token
 
 from musica.views import MusicaViewSet
+from artista.views import ArtistaViewSet
 
 routers = routers.DefaultRouter()
 router.register(r'musica', MusicaViewSet)
