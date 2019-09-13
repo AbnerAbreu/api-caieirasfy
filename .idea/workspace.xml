@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2a3712b-66af-4a37-8db7-869275f907d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../spotify/musica/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../spotify/musica/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spotify/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../spotify/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spotify/spotify/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../spotify/spotify/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artista/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/artista/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
