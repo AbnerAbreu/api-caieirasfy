@@ -23,6 +23,7 @@ from musica.views import MusicaViewSet
 
 routers = routers.DefaultRouter()
 router.register(r'musica', MusicaViewSet)
+router.register(r'artista', ArtistaViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
