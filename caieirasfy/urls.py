@@ -15,7 +15,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf.urls import include
+from rest_framework import routers
+from rest_framework.authtoken.views import obtain_auth_token
+
+from musica.views import MusicaViewSet
+
+routers = routers.DefaultRouter()
+router.register(r'musica', MusicaViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/', include(router.urls)),
+    path('auth-api/', obtain_auth_token),
 ]
