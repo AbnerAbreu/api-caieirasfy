@@ -10,7 +10,7 @@ class MusicaSerializer(serializers.Serializer):
 class ArtistaSerializer(serializers.Serializer):
     id = serializers.IntegerField()
     nome = serializers.Charfield(max_length=255,required=True)
-    tempo_reprodução = serializers.IntegerField()
+    temporeprodução = serializers.IntegerField()
     genero_musical = serializers.Charfield()
 
     def create(self, validated_data):
@@ -29,6 +29,6 @@ class ArtistaSerializer(serializers.Serializer):
         return instance
 
 
-class MusicaLightSerializer(serializers.Serializer):m
+class MusicaLightSerializer(serializers.Serializer):
     id = serializers.IntegerField()
     nome = serializers.CharField(max_length=255)
