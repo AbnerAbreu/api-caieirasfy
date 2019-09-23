@@ -4,13 +4,13 @@ from artista.models import Artista
 from musica.models import Musica
 
 class ArtistaSerializer(serializers.Serializer):
-    id = serializers.intergeField()
+    id = serializers.IntergerField()
     nome = serializers.Charfield(read_only=True)
 
 class MusicaSerializer(serializers.Serializer):
-    id = serializers.intergeField()
+    id = serializers.IntegerField()
     nome = serializers.Charfield(max_length=255,required=True)
-    idade = serializers.intergeField()
+    idade = serializers.IntegerField()
     estilo_musical = serializers.Charfield()
 
     def create(self, validated_data):
